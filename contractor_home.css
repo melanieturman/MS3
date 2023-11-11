@@ -1,0 +1,64 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.full-vertical-div{
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  display: grid;
+  height: 100%;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  background-color: rgb(233, 157, 119);
+  position: relative;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.website-icon button{
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-location-bars input{
+  height: 35px;
+  border-radius: 10px;
+  border: solid;
+  max-width: 100%;
+  position: relative;
+}
+
+.search-location-bars button{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+}
+
+.login-signup button{
+  position: relative;
+  max-width: 100%;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  background-color: #c2452d;
+}
+.login-signup button:active{
+  background-color: rgb(141, 27, 5);
+}
