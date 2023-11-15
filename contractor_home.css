@@ -1,16 +1,86 @@
 body {
   height: 100%;
   margin: 0;
+  background-color: aliceblue;
 }
 
-.full-vertical-div{
+.mainpage{
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
   margin-left: 100px;
   margin-right: 100px;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.contractor-intro{
   display: grid;
+  grid-template-columns: 2fr 1fr;
   height: 100%;
   text-align: center;
+  padding-top: 20px;
 }
+
+.contractor-info{
+  text-align: justify;
+  padding-right: 15px;
+}
+
+.rating i{
+  color: rgb(255, 123, 0);
+  font-size: 15px;
+}
+
+.contractor-images img{
+  height: 280px;
+  width: 280px;
+}
+
+.services-provided{
+  display: flex;
+  justify-content: space-between;
+  size: 100%;
+}
+
+.services-provided button{
+  background-color: rgba(6, 62, 126, 0.212);
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+
+.important-btns{
+  padding-top: 20px;
+}
+.important-btns button{
+  max-width: 100%;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  background-color: #c2452d;
+  font-size: 15px;
+  margin-right: 30px;
+}
+.important-btns button:hover{
+  background-color: white;
+  color: #c2452d;
+  transition: 0.3s;
+}
+.important-btns button:active{
+  background-color: rgb(141, 27, 5);
+  color: white;
+}
+.important-btns button:last-child {
+  margin-right: 0;
+}
+
+
+
+/* NAVBAR */
 
 nav{
   display: flex;
