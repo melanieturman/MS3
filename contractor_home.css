@@ -179,3 +179,7 @@ nav{
   .burger-links {padding-top: 15px;}
   .burger-links a {font-size: 18px;}
 }
+
+.nav-header{
+  display: flex;
+}
