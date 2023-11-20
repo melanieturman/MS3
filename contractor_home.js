@@ -38,3 +38,22 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 
+function toggleNav() {
+  var nav = document.getElementById("my-burger-links");
+  var btnText = document.getElementById("btn-text");
+
+  if (nav.style.width == "250px") {
+    // Close the side navigation
+    nav.style.width = "0";
+    btnText.innerHTML = "☰ Show Text";
+  } else {
+    // Open the side navigation
+    nav.style.width = "250px";
+    btnText.innerHTML = ""; // Make the text inside the button disappear
+  }
+}
+
+function scrollWriteReviewSection() {
+  var element = document.getElementById("write-review-section");
+  element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}

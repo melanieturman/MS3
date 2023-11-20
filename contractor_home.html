@@ -43,7 +43,7 @@
         </div>
 
         <div id="main">
-          <button class="openbtn" onclick="openNav()">☰</button> 
+          <button class="openbtn" onclick="toggleNav()"><p id="burgerText" style="margin: 0;">☰</p></button>
         </div>
 
         <div class="website-icon">
@@ -89,7 +89,7 @@
                 <button>Schedule</button>
                 <button>Contact</button>
                 <button>Get a Quote</button>
-                <button>Write a Review</button>
+                <button onclick="scrollWriteReviewSection()"> Write a Review </button>
               </div>
             </div>
 
@@ -144,32 +144,36 @@
                    Overall, I would cautiously recommend Innovative Renovations to those with a surplus of patience and a penchant for rework..</p>
               </div>
 
-              <div class="box">
-                <h2>Paul Liberschtein</h2>
-                <p class="summary">Very polite and on time <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i></p>
-                <p class="descriptive-summary">I had the pleasure of working with Innovative Renovations for a recent home project, 
-                  and I am genuinely delighted with the outcome. 
-                  The team at Innovative Renovations displayed an admirable combination of politeness and punctuality throughout the entire process. 
-                  They not only completed the renovation ahead of schedule but also maintained a high standard of quality in their work.
-                  Innovative Renovations stood out for their impeccable professionalism. 
-                  Their polite and respectful demeanor made the collaboration a positive experience. 
-                  They took the time to listen to my ideas, offered valuable suggestions, and ensured that every concern was promptly addressed.
-                  Moreover, the punctuality displayed by Innovative Renovations was remarkable. Deadlines were not only met but exceeded, 
-                  showcasing a commitment to delivering exceptional results in a timely manner. 
-                  Their dedication to both politeness and punctuality has left a lasting impression, and 
-                  I wholeheartedly recommend Innovative Renovations to anyone seeking a courteous and efficient contractor. 
-                  I am grateful for their outstanding service and look forward to future collaborations.</p>
-                <div class="image-reviews">
-                  <img src="images/living1.jpeg">
-                  <img src="images/living2.png">
-                  <img src="images/living3.jpeg">
-                </div>
-              </div>  
+              <h2>Paul Liberschtein</h2>
+              <p class="summary">Very polite and on time <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i></p>
+              <p class="descriptive-summary">I had the pleasure of working with Innovative Renovations for a recent home project, 
+                and I am genuinely delighted with the outcome. 
+                The team at Innovative Renovations displayed an admirable combination of politeness and punctuality throughout the entire process. 
+                They not only completed the renovation ahead of schedule but also maintained a high standard of quality in their work.
+                Innovative Renovations stood out for their impeccable professionalism. 
+                Their polite and respectful demeanor made the collaboration a positive experience. 
+                They took the time to listen to my ideas, offered valuable suggestions, and ensured that every concern was promptly addressed.
+                Moreover, the punctuality displayed by Innovative Renovations was remarkable. Deadlines were not only met but exceeded, 
+                showcasing a commitment to delivering exceptional results in a timely manner. 
+                Their dedication to both politeness and punctuality has left a lasting impression, and 
+                I wholeheartedly recommend Innovative Renovations to anyone seeking a courteous and efficient contractor. 
+                I am grateful for their outstanding service and look forward to future collaborations.</p>
+              <div class="image-reviews">
+                <img src="images/living1.jpeg">
+                <img src="images/living2.png">
+                <img src="images/living3.jpeg">
+              </div>
             </div>
+          </div>
+
+
+          <div class="write-review" id="write-review-section">
+            <div class="write-review-heading">
+              <h2 style="font-weight: lighter; padding-left: 15px; padding-top: 8px; padding-bottom: 8px;">Write a Review</h2>
           </div>
           
             

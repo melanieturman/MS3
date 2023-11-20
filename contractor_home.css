@@ -7,8 +7,15 @@ body {
 .mainpage{
   font-family: Helvetica, sans-serif;
   font-size: 13px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media screen and (min-width: 900px) {
+  .mainpage {
+    margin-left: 15%; 
+    margin-right: 15%;
+  }
 }
 
 .contractor-intro{
@@ -32,6 +39,16 @@ body {
 .contractor-images img{
   height: 280px;
   width: 280px;
+}
+
+@media screen and (max-width: 700px) {
+  .contractor-images {
+    display: none; /* Hide the images container when the screen is too small */
+  }
+
+  .contractor-info {
+    width: 100%; /* Take the full width when images are hidden */
+  }
 }
 
 .services-provided{
@@ -85,7 +102,8 @@ body {
   border-bottom: solid;
   border-bottom-width: 1px;
 }
-.review-heading{
+.review-heading, .write-review-heading{
+  margin-top: 35px;
   background-color:rgb(4, 6, 56);
   color: white;
 }
@@ -104,10 +122,8 @@ body {
   margin-bottom: 30px;
 }
 .image-reviews img{
-  width: 100%; 
-  max-width: 270px; 
+  max-width: 235px; 
   height: 200px; 
-  object-fit: cover; 
 }
 .descriptive-summary{
   margin-bottom: 30px;
