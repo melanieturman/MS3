@@ -9,6 +9,7 @@ body {
   font-size: 13px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 900px) {
@@ -301,4 +302,30 @@ nav{
 
 .nav-header{
   display: flex;
+}
+
+.review textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: Arial;
+  font-size: 15px;
+}
+.message{
+  height: 80px;
+}
+.submit-button {
+  display: block;
+  margin: 0 auto; /* This will center the button horizontally */
+  background-color: #c2452d;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  font-size: 15px;
+  margin-top: 20px; /* Adjust the top margin as needed */
 }
