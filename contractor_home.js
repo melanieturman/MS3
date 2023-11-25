@@ -60,7 +60,13 @@ function scrollWriteReviewSection() {
 
 document.getElementById("review").addEventListener("submit", function (event) {
   event.preventDefault();
+  resetForm();
 });
+
+function resetForm(){
+  var form = document.getElementById("review");
+  form.reset();
+}
 
 
 // ------- Popup general code ----------

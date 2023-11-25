@@ -356,8 +356,12 @@ nav{
 }
 .submit-confirmation h2{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+}
+.submit-confirmation h3{
+  font-family: sans-serif;
+  font-size: 15px;
   margin: 30px 0 10px;
 }
 .submit-confirmation button{
