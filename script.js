@@ -84,3 +84,9 @@ function closeSubmitConf(){
   document.getElementById("overlay").style.display = "none";
   submitConf.style.visibility = "hidden";
 }
+
+// ------------------- JS FOR LINKING TO USER HOME PAGE ----------------------------
+function goToUserHomePage(){
+  var targetPage = 'user_home.html';
+  window.location.href = targetPage;
+}
