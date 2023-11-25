@@ -57,3 +57,24 @@ function scrollWriteReviewSection() {
   var element = document.getElementById("write-review-section");
   element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 }
+
+document.getElementById("review").addEventListener("submit", function (event) {
+  event.preventDefault();
+});
+
+
+// ------- Popup general code ----------
+let submitConf = document.getElementById("submit-confirmation");
+
+function openSubmitConf() {
+  if (!submitConf.classList.contains("open-submit-confirmation")) {
+    submitConf.classList.add("open-submit-confirmation");
+    document.getElementById("overlay").style.display = "block";
+    submitConf.style.visibility = "visible";
+  }
+}
+function closeSubmitConf(){
+  submitConf.classList.remove("open-submit-confirmation");
+  document.getElementById("overlay").style.display = "none";
+  submitConf.style.visibility = "hidden";
+}
